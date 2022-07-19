@@ -5,6 +5,7 @@ function casesOverview(){
     d3.select("#Overview").style("display","block");
     d3.select("#By_State").style("display","none");
     d3.select("#Cause_of_Death").style("display","none");
+    d3.select("#list").style("display","none");
 
     d3.csv('./data/overview.csv')
         .then(data => {
