@@ -37,7 +37,7 @@ function displayChart(data){
                 .tickFormat(d3.format("~s"));
 
   x.domain(d3.extent(data, function(d) { return d.date; }));
-  y.domain([0, d3.max(data, function(d) { return d.cases; })]);
+  y.domain([0, d3.max(data, function(d) { return d.deaths; })]);
   x2.domain(x.domain());
   y2.domain(y.domain());
 
