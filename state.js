@@ -1,5 +1,5 @@
 import {displayChart} from './lineplot.js';
-import {dropdownMenu} from './dropdownMenu.js';
+import {dropdownlist} from './dropdownlist.js';
 
 var defaultState = 'Florida';
 
