@@ -55,7 +55,7 @@ text {
     fill: #111010;
 }
 
-#menus {
+#list {
     font-size: 1.2em;
     text-align: center;
     margin-left: 75px;
@@ -63,12 +63,12 @@ text {
     font-family:sans-serif;
   }
 
-#menus select {
+#list select {
     font-size: 1rem;
     font-family:sans-serif;
   }
 
-#menus select option {
+#list select option {
     font-size: 1rem;
 }
 
@@ -142,7 +142,7 @@ text {
   }
 
 
-#overview-section {
+#Overview {
     text-align: left;
     margin-top:-5px;
     margin-left: 75px;
@@ -151,7 +151,7 @@ text {
     font-family:sans-serif;
 }
 
-#state-section {
+#By_State {
     text-align: left;
     margin-left: 75px;
     margin-right: 150px;
@@ -160,7 +160,7 @@ text {
     font-family:sans-serif;
 }
 
-#county-section {
+#Cause_of_Death {
     text-align: left;
     margin-left: 75px;
     margin-right: 150px;
