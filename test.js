@@ -33,6 +33,8 @@ var y = d3.scaleLinear()
   .range([ height, 0]);
 svg.append("g")
   .call(d3.axisLeft(y));
+    
+})
 
 // Bars
 svg.selectAll("mybar")
