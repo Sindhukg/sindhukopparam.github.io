@@ -34,7 +34,6 @@ var y = d3.scaleLinear()
 svg.append("g")
   .call(d3.axisLeft(y));
     
-})
 
 // Bars
 svg.selectAll("mybar")
@@ -47,3 +46,4 @@ svg.selectAll("mybar")
     .attr("height", function(d) { return height - y(d.Value); })
     .attr("fill", "#69b3a2")
 
+ })
